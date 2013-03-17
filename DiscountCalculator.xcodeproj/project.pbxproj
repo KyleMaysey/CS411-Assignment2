@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76EFD95F16F55D6000F4ECA4 /* drawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EFD95E16F55D6000F4ECA4 /* drawingView.m */; };
 		76FC8F5816F4189E0094C9CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FC8F5716F4189E0094C9CE /* UIKit.framework */; };
 		76FC8F5A16F4189E0094C9CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FC8F5916F4189E0094C9CE /* Foundation.framework */; };
 		76FC8F5C16F4189E0094C9CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FC8F5B16F4189E0094C9CE /* CoreGraphics.framework */; };
@@ -19,9 +20,13 @@
 		76FC8F7116F4189E0094C9CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FC8F6F16F4189E0094C9CE /* MainStoryboard_iPhone.storyboard */; };
 		76FC8F7416F4189E0094C9CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FC8F7216F4189E0094C9CE /* MainStoryboard_iPad.storyboard */; };
 		76FC8F7716F4189E0094C9CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FC8F7616F4189E0094C9CE /* ViewController.m */; };
+		76FC8F7F16F426870094C9CE /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FC8F7E16F426870094C9CE /* GraphViewController.m */; };
+		76FC8F8216F42D6F0094C9CE /* DiscountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FC8F8116F42D6F0094C9CE /* DiscountModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76EFD95D16F55D6000F4ECA4 /* drawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawingView.h; sourceTree = "<group>"; };
+		76EFD95E16F55D6000F4ECA4 /* drawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawingView.m; sourceTree = "<group>"; };
 		76FC8F5416F4189E0094C9CE /* DiscountCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FC8F5716F4189E0094C9CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76FC8F5916F4189E0094C9CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,10 @@
 		76FC8F7316F4189E0094C9CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		76FC8F7516F4189E0094C9CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76FC8F7616F4189E0094C9CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76FC8F7D16F426870094C9CE /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		76FC8F7E16F426870094C9CE /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		76FC8F8016F42D6F0094C9CE /* DiscountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountModel.h; sourceTree = "<group>"; };
+		76FC8F8116F42D6F0094C9CE /* DiscountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +97,15 @@
 				76FC8F6616F4189E0094C9CE /* AppDelegate.h */,
 				76FC8F6716F4189E0094C9CE /* AppDelegate.m */,
 				76FC8F6F16F4189E0094C9CE /* MainStoryboard_iPhone.storyboard */,
+				76FC8F8016F42D6F0094C9CE /* DiscountModel.h */,
+				76FC8F8116F42D6F0094C9CE /* DiscountModel.m */,
 				76FC8F7216F4189E0094C9CE /* MainStoryboard_iPad.storyboard */,
 				76FC8F7516F4189E0094C9CE /* ViewController.h */,
 				76FC8F7616F4189E0094C9CE /* ViewController.m */,
+				76FC8F7D16F426870094C9CE /* GraphViewController.h */,
+				76FC8F7E16F426870094C9CE /* GraphViewController.m */,
+				76EFD95D16F55D6000F4ECA4 /* drawingView.h */,
+				76EFD95E16F55D6000F4ECA4 /* drawingView.m */,
 				76FC8F5E16F4189E0094C9CE /* Supporting Files */,
 			);
 			path = DiscountCalculator;
@@ -180,6 +195,9 @@
 				76FC8F6416F4189E0094C9CE /* main.m in Sources */,
 				76FC8F6816F4189E0094C9CE /* AppDelegate.m in Sources */,
 				76FC8F7716F4189E0094C9CE /* ViewController.m in Sources */,
+				76FC8F7F16F426870094C9CE /* GraphViewController.m in Sources */,
+				76FC8F8216F42D6F0094C9CE /* DiscountModel.m in Sources */,
+				76EFD95F16F55D6000F4ECA4 /* drawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +296,7 @@
 				GCC_PREFIX_HEADER = "DiscountCalculator/DiscountCalculator-Prefix.pch";
 				INFOPLIST_FILE = "DiscountCalculator/DiscountCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,6 +308,7 @@
 				GCC_PREFIX_HEADER = "DiscountCalculator/DiscountCalculator-Prefix.pch";
 				INFOPLIST_FILE = "DiscountCalculator/DiscountCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +332,7 @@
 				76FC8F7C16F4189E0094C9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
